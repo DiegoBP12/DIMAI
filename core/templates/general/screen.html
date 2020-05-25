@@ -1,0 +1,23 @@
+{% extends 'general/base_2.html' %}
+
+{% block title %}Demo{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/fondo2.jpg' %}{% endblock %}
+
+{% block headers %}
+{% load static %}
+<h1 style="color: #5eedf1;">DIMAI DEMO</h1>
+<span class="subheading">Watch how the algorithm works using chest X-Ray images and give back a diagnosis</span>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 style="margin-left: 180px;">See how it works</h1>
+    <video src="{% static 'core/img/DIMAI.mp4'%}" width="800px" height="600px" controls style="margin-left: 180px;"></video>
+</div>
+<hr>
+<div class="container">
+<h1 style="margin-left: 320px;"><b>Coming Soon!</b> Live Demo</h1>
+</div>
+</div>
+{% endblock %}

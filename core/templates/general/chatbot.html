@@ -1,0 +1,21 @@
+{% extends 'general/base_2.html' %}
+
+{% block title %}Chatbot{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/fondo2.jpg' %}{% endblock %}
+
+{% block headers %}
+{% load static %}
+<h1 style="color: #5eedf1;">DIMAI CHATBOT</h1>
+<span class="subheading">Let's chat!</span>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <p style="align-self: center; margin-right: 150px; margin-left: 50px;">If you have questions about what is <b>DIMAI</b> or What is it <b>Covid-19</b><br>You can ask to <b>DIMAI Chatbot</b>  like: <br>- What is DIMAI?<br>- What is COVID-19?<br>- What are the symptoms of COVID-19?<br>- Can I travel to other cities in Iceland?<br><b>And more..</b></p>
+        <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/653e25a9-5ada-45df-bb05-f8c8c26bb5fb"></iframe>
+    </div>
+</div>
+<br>
+{% endblock %}
