@@ -27,7 +27,7 @@ SECRET_KEY = 'g1x8=8y9ujffl$%cwoo#ioj^w62l^o2_m#2%lmzc8cghorob(u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.neoxtec.com','https://dimai.herokuapp.com/']
+ALLOWED_HOSTS = ['www.neoxtec.com','https://dimai.herokuapp.com/','127.0.0.1:8000']
 
 
 # Application definition
